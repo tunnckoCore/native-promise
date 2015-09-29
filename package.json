@@ -1,6 +1,6 @@
 {
   "name": "native-promise",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get native `Promise` or falsey value if not available.",
   "repository": "tunnckoCore/native-promise",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
