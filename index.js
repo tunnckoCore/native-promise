@@ -7,8 +7,7 @@
 
 'use strict'
 
-try {
-  module.exports = global.Promise || Promise
-} catch (err) {
-  module.exports = false
-}
+module.exports = typeof global === 'object' && global.Promise ||
+  typeof window === 'object' && window.Promise ||
+  typeof Promise !== 'undefined' && Promise ||
+  false
