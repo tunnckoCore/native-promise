@@ -24,6 +24,7 @@ test('should be native Promise on node >= v0.11.13', function (done) {
 })
 
 test('should be `false` if dont have support, node < v0.11.13', function (done) {
+  /* istanbul ignore next */
   if (semver.lt(process.version, '0.11.13')) {
     test.strictEqual(NativePromise, false)
   }
