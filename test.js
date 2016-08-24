@@ -9,7 +9,7 @@
 
 'use strict'
 
-var test = require('assertit')
+var test = require('mukla')
 var semver = require('semver')
 var isPromise = require('is-promise')
 var NativePromise = require('./index')

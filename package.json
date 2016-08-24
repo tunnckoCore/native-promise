@@ -11,8 +11,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "assertit": "^0.1.0",
     "is-promise": "^2.1.0",
+    "mukla": "^0.4.4",
     "semver": "^5.0.3"
   },
   "files": [
